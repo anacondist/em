@@ -1,0 +1,7 @@
+ Luke_input = input()
+ Luke_lines = (Luke_input[0]).upper() + (Luke_input[1:]).lower()
+if Luke_lines == "No":
+    print("Luke: I don't・・・ I don't believe it.")
+    print("Yoda: That is why you fail.")
+else:
+    print("May the Force be with you.")
